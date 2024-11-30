@@ -10,7 +10,7 @@ If the number is less than 22 display a message saying "Nearly bedtime"
 If the number is 23 display a message saying "Good night!"
 Any other number is met with the response “Sorry, I don’t recognize that”
 '''
-number = -1
+number = "-1"
 
 def main():
     global number

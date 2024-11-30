@@ -11,7 +11,8 @@ Investigate -This optional exercise is a bit like the previous one, but poses a 
 
 Modify - In these optional exercises, you will be given some working code and asked to modify it slightly.
 
-Graded Make Task Instructions
+### Graded Make Task Instructions
+
 You are going to write a program called "Time Reminder"
 
 - The user has to enter a number between 0 and 23
@@ -27,7 +28,19 @@ You are going to write a program called "Time Reminder"
 
 Fully comment your code
 
-Help! My code doesn't work
+### Autograding Notes
+
+This repository should have been cloned when you accepted the assignment from GitHub classrooms.  To turn it in, you will need to commit and push the repository.
+
+See these notes for information on how to do that.
+
+Once you have done that, the tests in the /tests subdirectory will be run.  Those should all pass if you have written your code correctly.  If you have a green checkmark, everything is good!
+
+If you have a red mark, look to see which test failed and correct your code.  I will use these checks as a start point in grading, to make sure that your code is doing what it is supposed to do.
+
+I will also look at your repository to see how the code looks regarding comments, style, and check for academic integrity.
+
+### Help! My code doesn't work
 Make sure that you check for the following things:
 
 selection begins with 'if' has as many 'elif's in the middle as you need and end with 'else'
