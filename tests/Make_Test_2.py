@@ -4,11 +4,11 @@
 
 import sys
 sys.path.append("..")
-
+sys.path.append(".")
 import os.path
 import sys
-from  Make_Solution_root import main
-import Make_Solution_root
+from  Make_Homework import main
+import Make_Homework
 from tud_tests import *
 
 def test_problem_1():
@@ -22,5 +22,5 @@ def test_problem_1():
 
     assert output[0].lower() == "enter a number between 0 and 23: "
 
-    assert Make_Solution_root.number == 5
+    assert Make_Homework.number == 5
 

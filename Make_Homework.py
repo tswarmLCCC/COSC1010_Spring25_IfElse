@@ -14,26 +14,8 @@ number = "-1"
 
 def main():
     global number
-    number = int(input("Enter a number between 0 and 23: "))
 
-    if number < 0 or number > 23:
-        print("Sorry, I don’t recognize that")
-    elif number < 8:
-        print("Too early to get up")
-    elif number < 12:
-        print("Good morning")
-    elif number < 14:
-        print("Lunch time!")
-    elif number < 18:
-        print("Good afternoon")
-    elif number == 18:
-        print("Tea Time")
-    elif number < 19:
-        print("Good evening")
-    elif number < 22:
-        print("Nearly bedtime")
-    elif number == 23:
-        print("Good night!")
+    pass  #replace this line with your code.  Make sure that you assign the value you read in to the variable number
 
 if __name__ == "__main__":
     main()
